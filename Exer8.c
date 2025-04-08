@@ -4,6 +4,13 @@
 	2. Analyze the running time of the program.
 */
 
+// TIME COMPLEXITY ANALYSIS:
+// It can be observed that the time complexity of the algorithm is O(n^2) in the worst case.
+// This is because for each vertex, we need to check all its adjacent vertices to determine the available colors.
+// In the worst case, this can lead to a nested loop where we check each vertex against all its neighbors.
+// Additionally, the insertion of edges into the adjacency list takes O(n) time already.
+// When we do this for all vertices, the overall complexity becomes O(n^2).
+
 #include<stdio.h>
 #include<stdlib.h>
 
